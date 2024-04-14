@@ -220,7 +220,7 @@ function getAllLikes(cb) {
     }});
 }
 function getLikes(game, cb) {
-	let url = 'hhttps://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=' + encodeURIComponent(game);
+	let url = 'https://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=' + encodeURIComponent(game);
     const xml = new XMLHttpRequest();
     xml.open("GET", url, true);
 
