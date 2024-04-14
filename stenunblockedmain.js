@@ -1,5 +1,8 @@
 const likeElement = document.getElementById("likes");
 
+const stenUnblockedAPILikes = "https://stenunblockedserver-c3acd8e9110f.herokuapp.com/";
+const stenUnblockedAPIViews = "https://stenunblockedserver-c3acd8e9110f.herokuapp.com/views/"
+
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -27,7 +30,7 @@ if (getCookie("likes")==="") {
 }
 
 function getLikes(cb) {
-  let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=' + encodeURIComponent(game);
+  let url = stenUnblockedAPILikes + 'like?game=' + encodeURIComponent(game);
     const xml = new XMLHttpRequest();
     xml.open("GET", url, true);
     xml.send(null);
@@ -52,7 +55,7 @@ function like() {
       return;
     }
   
-    let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=' + encodeURIComponent(game);
+    let url = stenUnblockedAPILikes + 'like?game=' + encodeURIComponent(game);
     const xml = new XMLHttpRequest();
     xml.open("POST", url, true);
     xml.send(null);
@@ -96,7 +99,7 @@ if (likeElement != null)
   }
 
   let xml = new XMLHttpRequest();
-  xml.open('POST', 'https://stenunblockedaktieapi--geometrysten.repl.co/view-game' + gameURL, true);
+  xml.open('POST', stenUnblockedAPIViews + 'view-game' + gameURL, true);
   xml.send(null);
 })();
 
