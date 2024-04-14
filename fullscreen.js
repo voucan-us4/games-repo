@@ -43,6 +43,11 @@ function enableFullscreen() {
     _fullscreen = true;
     _frame.setAttribute("class", "fullScreen");
     disableScroll();
+
+    if (document.getElementById("fullscrenBackground")) {
+        document.getElementById("fullscrenBackground").style.width = '100%';
+        document.getElementById("fullscrenBackground").style.display = '';
+    }
 }
 
 function disableFullscreen() {
@@ -50,6 +55,11 @@ function disableFullscreen() {
     _fullscreen = false;
     _frame.setAttribute("class", "");
     enableScroll();
+
+    if (document.getElementById("fullscrenBackground")) {
+        document.getElementById("fullscrenBackground").style.width = '0';
+        document.getElementById("fullscrenBackground").style.display = 'none';
+    }
 }
 
 function openFullscreen() {
