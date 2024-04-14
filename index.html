@@ -206,7 +206,7 @@ if (getCookie("lastSorting")==="") {
 }
 
 function getAllLikes(cb) {
-	let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=all';
+	let url = 'https://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=all';
     const xml = new XMLHttpRequest();
     xml.open("GET", url, true);
 
@@ -220,7 +220,7 @@ function getAllLikes(cb) {
     }});
 }
 function getLikes(game, cb) {
-	let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=' + encodeURIComponent(game);
+	let url = 'hhttps://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=' + encodeURIComponent(game);
     const xml = new XMLHttpRequest();
     xml.open("GET", url, true);
 
@@ -244,7 +244,7 @@ function likez(game, cb) {
         return;
     }
 	
-    let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=' + encodeURIComponent(game);
+    let url = 'https://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=' + encodeURIComponent(game);
     const xml = new XMLHttpRequest();
     xml.open("POST", url, true);
     xml.send(null);
