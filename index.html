@@ -415,7 +415,7 @@ function sort_def() {
 }
 sort_def(); // när servern är avstängd
 var likes = getAllLikes(function(_likes) {
-  let url = 'https://stenunblockedserver.stensjogren.repl.co/like?game=all';
+  let url = 'https://stenunblockedserver-c3acd8e9110f.herokuapp.com/like?game=all';
   likes = _likes;
 let ss = getCookie("lastSorting");
 let sortcon = document.getElementById("sort-container");
@@ -463,7 +463,7 @@ else if (enabled == "0") {
 <script>
 (function(){
   let xml = new XMLHttpRequest();
-  xml.open('POST', 'https://stenunblockedaktieapi--geometrysten.repl.co/view-game', true);
+  xml.open('POST', 'https://stenunblockedserver-c3acd8e9110f.herokuapp.com/views/view-game', true);
   xml.send(null);
 })();
 </script>
@@ -481,11 +481,11 @@ else if (enabled == "0") {
 </center>
 -->
 <br>
-<script>
+<!--<script>
 var chrismashat = document.getElementById("chrismanhat");
 var allowed = ["stenblocked2", "stenblocked", "stenunblocked"];
 if (allowed.includes(window.location.host.split(".")[0].toLowerCase()))
 	chrismashat.style.display = '';
-</script>
+</script>-->
 </body>
 </html>
