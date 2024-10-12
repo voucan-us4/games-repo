@@ -132,8 +132,8 @@
     "killText": "Töten"
   },
   "Skibidi": {
-    "yourScore": "Sigma Levels",
-    "bestScore": "Highest Sigma Levels",
+    "yourScore": "Sigma Percentage",
+    "bestScore": "Highest Sigma Percentage",
     "newText": "NEW",
     "timePlayed": "Time Spent Rizzing",
     "playersKilled": "Players Rizzed",
@@ -144,7 +144,7 @@
     "btnPlay": "PLAY",
     "placeholderText": "Type a Sigma Name",
     "defaultPlayerName": "Rizzard Of Oz",
-    "bestTxt": "Highest Sigma Levels",
+    "bestTxt": "Highest Sigma Percentage",
     "killText": "Rizzed"
   }
 }
