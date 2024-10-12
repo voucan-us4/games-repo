@@ -131,20 +131,20 @@
     "bestTxt": "BESTE",
     "killText": "Töten"
   },
-  "it": {
-    "yourScore": "PUNTEGGIO",
-    "bestScore": "MIGLIOR PUNTEGGIO",
-    "newText": "NUOVO",
-    "timePlayed": "TEMPO GIOCATO",
-    "playersKilled": "GIOCATORI ELIMINATI",
-    "playAgain": "GIOCA DI NUOVO",
+  "GZ": {
+    "yourScore": "Sigma Levels",
+    "bestScore": "Most Rizzed",
+    "newText": "NEW",
+    "timePlayed": "Time Spent Rizzing",
+    "playersKilled": "Players Rizzed",
+    "playAgain": "PLAY AGAIN",
     "menu": "MENU",
-    "messages": ["Vuoi iniziare una partita?", "Tocca lo schermo per controllare", "Mordi le code dei nemici e non lasciarli fare altrettanto!", "Gareggia contro altri giocatori"],
-    "nosupport": "Il gioco non è supportato sul tuo dispositivo",
-    "btnPlay": "GIOCA",
-    "placeholderText": "Il tuo nome",
+    "messages": ["F**K Classroom 6x"],
+    "nosupport": "Your device isn't sigma enough to run this",
+    "btnPlay": "Start Rizzing",
+    "placeholderText": "Type a Sigma Name",
     "defaultPlayerName": "Giocatore",
-    "bestTxt": "MIGLIORE",
-    "killText": "Uccidere"
+    "bestTxt": "BEST",
+    "killText": "Rizzed"
   }
 }
